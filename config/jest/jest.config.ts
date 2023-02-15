@@ -4,6 +4,9 @@
  */
 
 export default {
+    "modulePaths": [
+        "<rootDir>src",
+      ],
     // All imported modules in your tests should be mocked automatically
     // automock: false,
 
