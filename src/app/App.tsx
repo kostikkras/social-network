@@ -1,4 +1,4 @@
-import { Suspense, useContext, useState } from 'react';
+import { Suspense, useContext, useEffect, useState } from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
 
 import './styles/index.scss';
@@ -12,6 +12,8 @@ import { Sidebar } from 'widgets/Sidebar';
 
 function App() {
     const { theme } = useTheme();
+    
+    
 
     return (
         <div className={classNames('App', {}, [theme])}>
