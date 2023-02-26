@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { RoutePath } from 'shared/config/routeConfig/routeConfig';
-import { LangSwitcher } from 'shared/LangSwitcher/LangSwitcer';
+import { LangSwitcher } from 'shared/ui/LangSwitcher/LangSwitcer';
 import { classNames } from 'shared/lib/classNames/classNames';
 import { AppLink, AppLinkTheme } from 'shared/ui/AppLink/AppLink';
 import { Button, ButtonSize, ThemeButton } from 'shared/ui/Button/Button';
