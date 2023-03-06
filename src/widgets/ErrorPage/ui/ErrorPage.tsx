@@ -8,11 +8,11 @@ interface ErrorPageProps {
 }
 
 export const ErrorPage = ({ className }: ErrorPageProps) => {
-    const {t}= useTranslation()
+    const { t } = useTranslation();
 
-    const reloadPage=()=> {
-        location.reload()
-    }
+    const reloadPage = () => {
+        location.reload();
+    };
     return (
         <div className={classNames(cls.ErrorPage, {}, [className])}>
             <p>{t('Произошла непредвиденная ошибка')}</p>
