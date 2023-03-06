@@ -5,5 +5,7 @@
     "Язык": "English",
     "Страница не найдена": "Page not found",
     "Коротокий язык": "En",
-    "Войти": "Exit"
+    "Войти": "Enter",
+    "Введите текст": "Enter the text",
+    "Вы ввели неверный пароль или логин": "You have entered an incorrect password or login"
 }
