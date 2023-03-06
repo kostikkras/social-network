@@ -1,6 +1,6 @@
 import { getLoginState } from '../../model/selectors/getLoginState/getLoginState';
 import { loginByUsername } from '../../model/services/loginByUserName/loginByUserName';
-import { loginActions } from '../../model/slice/LoginSlice';
+import { loginActions } from '../../model/slice/loginSlice';
 import { memo, useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useDispatch, useSelector } from 'react-redux';
